@@ -525,10 +525,10 @@
 		<Object Class="CButton" Name="Button" ObjectName="Button_PlusPlus" Pinned="FALSE" JVS-ID="6000">
 			<PropertySheet Name="Button">
 				<Property Name="BackColor">
-					<Value>10079436</Value>
+					<Value>16776960</Value>
 				</Property>
 				<Property Name="BorderColor">
-					<Value>6723993</Value>
+					<Value>39321</Value>
 				</Property>
 				<Property Name="KeyCode">
 					<Value>1</Value>
@@ -732,10 +732,10 @@
 		<Object Class="CButton" Name="Button" ObjectName="Button_MinusMinus" Pinned="FALSE" JVS-ID="6003">
 			<PropertySheet Name="Button">
 				<Property Name="BackColor">
-					<Value>10079436</Value>
+					<Value>255</Value>
 				</Property>
 				<Property Name="BorderColor">
-					<Value>6723993</Value>
+					<Value>10027161</Value>
 				</Property>
 				<Property Name="KeyCode">
 					<Value>1</Value>
@@ -784,7 +784,7 @@
 				</Property>
 				<Property Name="Comment">
 					<Value>
-						<![CDATA[AAA=]]>
+						<![CDATA[SABlAHUAdABlACAAaQBzAHQAIABlAHMAIABiAGUAdwD2AGwAawB0AAAA]]>
 					</Value>
 				</Property>
 				<Property Name="Disabled">
