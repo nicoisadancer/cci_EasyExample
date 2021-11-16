@@ -23,8 +23,10 @@ const unsigned char ISO_OP_MEMORY_CLASS isoOP_MyProject1[] = {
 		'd', 'e',
 	ID(Macro_1), TYPEID_MACRO, WORD(8),
 		CMD_CHANGE_ACTIVE_MASK, ID(WorkingSet_0), ID(Seite_2), 0xFF, 0xFF, 0xFF,
-	ID(Macro_2), TYPEID_MACRO, WORD(8),
+	ID(Macro_2), TYPEID_MACRO, WORD(24),
 		CMD_CHANGE_ACTIVE_MASK, ID(WorkingSet_0), ID(DataMask_Home), 0xFF, 0xFF, 0xFF,
+		CMD_CONTROL_AUDIO_DEVICE, 3, WORD(440), WORD(300), WORD(100)
+		CMD_CONTROL_AUDIO_DEVICE, 5, WORD(500), WORD(300), WORD(100)
 	ID(DataMask_Home), TYPEID_DATAMASK, COLOR(230), ID(SoftKeyMask_Home), 8, 0, 
 		XYREF(Meter_Gesamtzaehler, 400, 240),
 		XYREF(Meter_Tageszaehler, 400, 240),

@@ -84,6 +84,22 @@
 						<Param Name="New active Mask" Type="8">1000 - DataMask_Home</Param>
 					</Params>
 				</Command>
+				<Command id="163" subid="-1">
+					<Params>
+						<Param Name="Number of repetitions" Type="1">3</Param>
+						<Param Name="Frequency in hz" Type="1">440</Param>
+						<Param Name="On-time duration in ms" Type="1">300</Param>
+						<Param Name="Off-time duration in ms" Type="1">100</Param>
+					</Params>
+				</Command>
+				<Command id="163" subid="-1">
+					<Params>
+						<Param Name="Number of repetitions" Type="1">5</Param>
+						<Param Name="Frequency in hz" Type="1">500</Param>
+						<Param Name="On-time duration in ms" Type="1">300</Param>
+						<Param Name="Off-time duration in ms" Type="1">100</Param>
+					</Params>
+				</Command>
 			</Commands>
 			<Property Name="Comment">
 				<Value>
