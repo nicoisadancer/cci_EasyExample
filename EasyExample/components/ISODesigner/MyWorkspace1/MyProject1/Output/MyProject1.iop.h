@@ -9,6 +9,7 @@
 #define WorkingSet_0                          0
 #define Macro_1                               1
 #define Macro_2                               2
+#define Macro_3                               3
 #define DataMask_Home                      1000
 #define Seite_2                            1001
 #define Container_Gesamtzaehler            3000
