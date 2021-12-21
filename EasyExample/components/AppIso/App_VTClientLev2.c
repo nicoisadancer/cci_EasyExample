@@ -185,17 +185,11 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 
 	CheckZiel(pButtonData->u8Instance);
 
-
-	IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, Gesamtzaehler, 440, 100, 500);
-
-
-
-
-
-
-
-
+	if(Gesamtzaehler <=20 )
+	{
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, Gesamtzaehler, 440, 100, 20);
 }
+
 
 void VTC_handleNumericValues(const struct InputNumber_S * pInputNumberData) {
 	// what number was entered
